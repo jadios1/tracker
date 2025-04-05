@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+    body{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    header{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+
+        height: 100px;
+        width: 100%;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .slot
+    {
+        font-family: "Roboto", sans-serif;
+
+        display: flex;
+        height: 50px; 
+        align-items:center;
+        justify-items: center;
+        border: 1.5px solid rgb(102, 102, 102);
+        border-radius: 5px;
+        margin: 10px;
+        font-size: 25px;
+    }
+    .slot:hover {
+        background-color: #f2f2f2;
+        cursor: default;
+}
+    .sloty
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+
+    }
+    .miejsce
+    {
+        padding: 10px;
+    }
+    .name
+    {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+
+    }
+    .distance
+    {
+        font-size: 18px;
+        font-weight: 500;
+        padding: 10px;
+    }
+</style>
+<body>
+    <header>klub tych co biegają bo muszą</header>
+    <div class="sloty">
+        <div class="slot">
+            <span class="miejsce">🥇</span>
+            <span class="name">NAME1</span>
+            <span class="distance">DISTANCE1</span>
+        </div>
+        <div class="slot">
+            <span class="miejsce">🥈</span>
+            <span class="name">NAME2</span>
+            <span class="distance">DISTANCE2</span>
+        </div>
+        <div class="slot">
+            <span class="miejsce">🥉</span>
+            <span class="name">NAME3</span>
+            <span class="distance">DISTANCE3</span>
+        </div>
+            <div class="slot">
+                <span class="miejsce">4.</span>
+            <span class="name">NAME4</span>
+            <span class="distance">DISTANCE4</span>
+        </div>
+        <div class="slot">
+            <span class="miejsce">5.</span>
+            <span class="name">NAME5</span>
+            <span class="distance">DISTANCE5</span>
+        </div>
+   
+    </div>
+</body>
+</html>
