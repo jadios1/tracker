@@ -49,7 +49,7 @@ a = 1
 for i in sorted(osoby_id.values(), key=lambda x: x.dystans_caly,reverse=True):
     print(i.imie, " ", str(round(i.dystans_caly,2)))
     html = html.replace("NAME"+ str(a), str(i.imie))
-    html = html.replace("DISTANCE"+ str(a), str(round(i.dystans_caly,2)))
+    html = html.replace("DISTANCE"+ str(a), str(round(i.dystans_caly,3)))
     a += 1
 
 
